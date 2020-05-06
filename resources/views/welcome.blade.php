@@ -65,13 +65,13 @@
         </style>
     </head>
     <body>
-    <div class="alert-danger">
+    <div class="alert-info text-danger" >
         <marquee>Тизим тест режимида ишламоқда!!!</marquee></div>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Бош саҳифа</a>
+                        <a href="{{ url('/home') }}">My Account</a>
                     @else
                         <a href="{{ route('login') }}">Тизимга кириш</a>
 
@@ -88,14 +88,12 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://minzdrav.uz">Minzdrav.uz</a>
+                    <a href="https://laravel.com/docs">Маълумотларни кўриш</a>
+
+                    <a href="https://kun.uz/covid19">Covid-19</a>
+                    <a href="https://kun.uz">Янгиликлар</a>
+                    <a href="https://www.emerge-centre.uz/">РШТЁИМ расмий сайти</a>
+                    <a href="https://minzdrav.uz">Ўз ССВ расмий сайти</a>
                 </div>
             </div>
         </div>
