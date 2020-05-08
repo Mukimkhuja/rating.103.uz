@@ -6,6 +6,9 @@
 
         <title>Rating system</title>
 
+            <link rel="shortcut icon" href="/public/css/images/ambulance.ico">
+
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
@@ -88,7 +91,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Маълумотларни кўриш</a>
+                    <a href="/show">Маълумотларни кўриш</a>
 
                     <a href="https://kun.uz/covid19" target="_blank">Covid-19</a>
                     <a href="https://kun.uz" target="_blank">Янгиликлар</a>

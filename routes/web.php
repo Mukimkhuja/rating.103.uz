@@ -24,6 +24,10 @@ Route::get('/enter/docrating', function () {
     return view('/enter/docrating');
 });
 
+Route::get('/show', function () {
+    return view('/show');
+})->name('show_page');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
