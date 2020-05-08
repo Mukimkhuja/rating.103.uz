@@ -21,10 +21,61 @@
                             </div>
 
                             <div class="pre-scrollable">
-                                <div class="form-group">
-                                    <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
-                                    <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
-                                </div>
+                                <ul type="1" class="list-group-horizontal ">
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
+                                            <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
+                                            <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
+                                            <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
+                                            <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
+                                            <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
+                                            <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
+                                            <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
+                                        </div>
+
+                                    </li>
+                                </ul>
+                                    <div class="form-group">
+                                        <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
+                                        <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
+                                    </div>
                                 <div class="form-group">
                                     <label for="nfabc" class="form-control-range">Nf(ABC) – Таҳлил даврида хизматда бўлган махсус автомобиллар сони</label>
                                     <input name="nfabc" id="nfabc" type="number" class="form-control-sm" placeholder="Enter the number!!!">
