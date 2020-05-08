@@ -15,7 +15,7 @@
                 /*background-color: #fafafa;*/
                 background-image: url("/public/css/images/backgroung.png");
                 color: #596064;
-                font-family: 'Nunito', sans-serif;
+                font-family: 'Times New Roman', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -90,10 +90,10 @@
                 <div class="links">
                     <a href="https://laravel.com/docs">Маълумотларни кўриш</a>
 
-                    <a href="https://kun.uz/covid19">Covid-19</a>
-                    <a href="https://kun.uz">Янгиликлар</a>
-                    <a href="https://www.emerge-centre.uz/">РШТЁИМ расмий сайти</a>
-                    <a href="https://minzdrav.uz">Ўз ССВ расмий сайти</a>
+                    <a href="https://kun.uz/covid19" target="_blank">Covid-19</a>
+                    <a href="https://kun.uz" target="_blank">Янгиликлар</a>
+                    <a href="https://www.emerge-centre.uz/" target="_blank">РШТЁИМ расмий сайти</a>
+                    <a href="https://minzdrav.uz" target="_blank">Ўз ССВ расмий сайти</a>
                 </div>
             </div>
         </div>
