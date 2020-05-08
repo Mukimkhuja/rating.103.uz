@@ -6,7 +6,7 @@
 
         <title>Rating system</title>
 
-            <link rel="shortcut icon" href="/public/css/images/ambulance.ico">
+            <!--<link rel="shortcut icon" href="/public/css/images/ambulance.ico">-->
 
 
         <!-- Fonts -->
