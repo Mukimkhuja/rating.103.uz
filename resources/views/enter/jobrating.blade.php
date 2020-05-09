@@ -57,18 +57,7 @@
                                     <label for="nppara" class="form-control-range">Np(para)- штат нормативи бўйича парамедик ставкалари сони</label>
                                     <input name="nppara" id="nppara" type="number" class="form-control-sm" placeholder="Enter the number!!!">
                                 </div>
-                                <div class="form-group">
-                                    <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
-                                    <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
-                                </div>
-                                <div class="form-group">
-                                    <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
-                                    <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
-                                </div>
-                                <div class="form-group">
-                                    <label for="npipl" class="form-control-range">N(pipl) - баҳоланаётган ТТЁ хизмати таркибий бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
-                                    <input name="npipl" id="npipl" type="number" class="form-control-sm" placeholder="Enter the number!!!">
-                                </div>
+
                             </div>
 
 
