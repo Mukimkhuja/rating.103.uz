@@ -52,6 +52,7 @@ class CreateJobratingsTable extends Migration
             $table->integer('nop')->default('0');
             $table->integer('npr')->default('0');
             $table->integer('rating')->default('0');
+            $table->string('user_name')->default('unknown');
             $table->timestamps();
         });
     }

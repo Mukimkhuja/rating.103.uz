@@ -8,7 +8,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                <!-- <div class="card-header">Ассалому алайкум, <?php //echo Auth::user()->name . "! "; ?> </div> -->
+                    <div class="card-header"> <?php $un = Auth::user()->name; ?> </div>
 
                     <div class="card-body2">
                         @if (session('status'))
@@ -245,13 +245,18 @@
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
-                                        <label for="npr" class="form-control-range">Даволаш профилактика муассасаларининг
+                                        <label for="npr" class="form-control-range">Даволаш профилактика
+                                            муассасаларининг
                                             даъволари ва фуқаролар шикоятлари
                                             <i>(Диагнозларнинг мос келмаслик ҳолатлари, йўлланмадаги диагнозлар ичида
                                                 хатолиги исботланганлари, шошилинч госпитализациянинг ўз вақтидалиги
                                                 омиллари ҳисобга олинган ҳолда)</i></label>
-                                            <input name="npr" id="npr" type="number" class="form-control-sm"
-                                                   placeholder="Enter the number!!!">
+                                        <input name="npr" id="npr" type="number" class="form-control-sm"
+                                               placeholder="Enter the number!!!">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="user" id="user" type="hidden" class="form-control-sm"
+                                               value="<?php echo $un ?>">
                                     </div>
 
                                     <div class="form-group">

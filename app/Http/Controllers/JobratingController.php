@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\JobratingRequest;
 use App\Models\Jobrating;
-use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Auth;
 
 class JobratingController extends Controller
 {
@@ -47,11 +47,12 @@ class JobratingController extends Controller
         $jrat->nfpv = $req->input('nfpv');
         $jrat->nop = $req->input('nop');
         $jrat->npr = $req->input('npr');
+        $jrat->user_name = $req->input('user');
 
-       /* $a = $jrat->npipl;
-        $b = $jrat->nfabc;
-        $c = $a / $b;
-        $jrat->rating = $c;*/
+         $a = $jrat->npipl;
+         $b = $jrat->nfabc;
+         $c = $a * $b;
+         $jrat->rating = $c;
 
         $jrat->save();
         return redirect()->route('jobrating-page')->with('success', 'Киритилган маълумотлар муваффаққиятли сақланди!');
