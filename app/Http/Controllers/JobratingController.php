@@ -11,7 +11,13 @@ class JobratingController extends Controller
 {
     public function submit(JobratingRequest $req)
     {
+
         $jrat = new Jobrating();
+        if ($req->input('user') == 'admin') {
+            $jrat->disl='shahar';
+        } else{
+            $jrat->disl='qishloq';
+        }
         $jrat->npipl = $req->input('npipl');
         $jrat->nfabc = $req->input('nfabc');
         $jrat->nfbc = $req->input('nfbc');
@@ -49,10 +55,10 @@ class JobratingController extends Controller
         $jrat->npr = $req->input('npr');
         $jrat->user_name = $req->input('user');
 
-         $a = $jrat->npipl;
-         $b = $jrat->nfabc;
-         $c = $a * $b;
-         $jrat->rating = $c;
+        $a = $jrat->npipl;
+        $b = $jrat->nfabc;
+        $c = $a * $b;
+        $jrat->rating = $c;
 
         $jrat->save();
         return redirect()->route('jobrating-page')->with('success', 'Киритилган маълумотлар муваффаққиятли сақланди!');

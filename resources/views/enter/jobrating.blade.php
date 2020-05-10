@@ -28,140 +28,140 @@
                                     <div class="form-group">
                                         <label for="npipl" class="form-control-range">Баҳоланаётган ТТЁ хизмати таркибий
                                             бўлинмасига бириктирилган ҳудуддаги аҳоли сони</label>
-                                        <input name="npipl" id="npipl" type="number" class="form-control-sm"
+                                        <input name="npipl" id="npipl" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nfabc" class="form-control-range">Таҳлил даврида хизматда бўлган
                                             махсус автомобиллар сони</label>
-                                        <input name="nfabc" id="nfabc" type="number" class="form-control-sm"
+                                        <input name="nfabc" id="nfabc" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nfbc" class="form-control-range">Таҳлил даврида хизматда бўлган
                                             Реанимобил (HUNDAY) типидаги автомобиллар сони</label>
-                                        <input name="nfbc" id="nfbc" type="number" class="form-control-sm"
+                                        <input name="nfbc" id="nfbc" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nab_c" class="form-control-range">Таҳлил даврида хизматда бўлган
                                             мобил+планшетлар сони</label>
-                                        <input name="nab_c" id="nab_c" type="number" class="form-control-sm"
+                                        <input name="nab_c" id="nab_c" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nfgps" class="form-control-range">Таҳлил даврида бор бўлган
                                             GPS*трекерлар сони </label>
-                                        <input name="nfgps" id="nfgps" type="number" class="form-control-sm"
+                                        <input name="nfgps" id="nfgps" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nfvr" class="form-control-range">Банд врач ставкалар сони</label>
-                                        <input name="nfvr" id="nfvr" type="number" class="form-control-sm"
+                                        <input name="nfvr" id="nfvr" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="npvr" class="form-control-range">Штат нормативи бўйича врач
                                             ставкалари сони</label>
-                                        <input name="npvr" id="npvr" type="number" class="form-control-sm"
+                                        <input name="npvr" id="npvr" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nfpara" class="form-control-range">Банд парамедик ставкалари
                                             сони</label>
-                                        <input name="nfpara" id="nfpara" type="number" class="form-control-sm"
+                                        <input name="nfpara" id="nfpara" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nppara" class="form-control-range">Штат нормативи бўйича парамедик
                                             ставкалари сони</label>
-                                        <input name="nppara" id="nppara" type="number" class="form-control-sm"
+                                        <input name="nppara" id="nppara" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nffeld" class="form-control-range">Банд фельдшер ставкалари
                                             сони</label>
-                                        <input name="nffeld" id="nffeld" type="number" class="form-control-sm"
+                                        <input name="nffeld" id="nffeld" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="npfeld" class="form-control-range">Штат нормативи бўйича фельдшер
                                             ставкалари сони</label>
-                                        <input name="npfeld" id="npfeld" type="number" class="form-control-sm"
+                                        <input name="npfeld" id="npfeld" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="stv5_7" class="form-control-range">Стажи 5 йилга тенг ёки ошиқ,
                                             лекин 7 йилдан кам врачлар сони </label>
-                                        <input name="stv5_7" id="stv5_7" type="number" class="form-control-sm"
+                                        <input name="stv5_7" id="stv5_7" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="stv5_7_2" class="form-control-range">Стажи 5 йилга тенг ёки ошиқ,
                                             лекин 7 йилдан кам врачлар ичида 2-тоифалилар сони </label>
-                                        <input name="stv5_7_2" id="stv5_7_2" type="number" class="form-control-sm"
+                                        <input name="stv5_7_2" id="stv5_7_2" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
 
                                     <div class="form-group">
                                         <label for="stv7_10" class="form-control-range">Стажи 7 йилга тенг ёки ошиқ,
                                             лекин 10 йилдан кам врачлар сони </label>
-                                        <input name="stv7_10" id="stv7_10" type="number" class="form-control-sm"
+                                        <input name="stv7_10" id="stv7_10" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="stv7_10_1" class="form-control-range">Стажи 7 йилга тенг ёки ошиқ,
                                             лекин 10 йилдан кам врачлар ичида 1-тоифалилар сони</label>
-                                        <input name="stv7_10_1" id="stv7_10_1" type="number" class="form-control-sm"
+                                        <input name="stv7_10_1" id="stv7_10_1" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="stv10" class="form-control-range">Стажи 10 йилга тенг ёки ошиқ
                                             бўлган врачлар сони</label>
-                                        <input name="stv10" id="stv10" type="number" class="form-control-sm"
+                                        <input name="stv10" id="stv10" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="stv10_pr" class="form-control-range">Стажи 10йилга тенг ёки ошиқ
                                             врачлар ичида олий-тоифалилар сони</label>
-                                        <input name="stv10_pr" id="stv10_pr" type="number" class="form-control-sm"
+                                        <input name="stv10_pr" id="stv10_pr" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="stf5_7" class="form-control-range">Стажи 5 йилга тенг ёки ошиқ,
                                             лекин 7 йилдан кам фельдшерлар сони </label>
-                                        <input name="stf5_7" id="stf5_7" type="number" class="form-control-sm"
+                                        <input name="stf5_7" id="stf5_7" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="stf5_7_2" class="form-control-range">Стажи 5 йилга тенг ёки ошиқ,
                                             лекин 7 йилдан кам фельдшерлар ичида 2-тоифалилар сони</label>
-                                        <input name="stf5_7_2" id="stf5_7_2" type="number" class="form-control-sm"
+                                        <input name="stf5_7_2" id="stf5_7_2" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="stf7_10" class="form-control-range">Стажи 7 йилга тенг ёки ошиқ,
                                             лекин 10 йилдан кам фельдшерлар сони</label>
-                                        <input name="stf7_10" id="stf7_10" type="number" class="form-control-sm"
+                                        <input name="stf7_10" id="stf7_10" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="stf7_10_1" class="form-control-range">Стажи 7 йилга тенг ёки ошиқ,
                                             лекин 10 йилдан кам фельдшерлар ичида 1-тоифалилар сони </label>
-                                        <input name="stf7_10_1" id="stf7_10_1" type="number" class="form-control-sm"
+                                        <input name="stf7_10_1" id="stf7_10_1" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
 
                                     <div class="form-group">
                                         <label for="stf10" class="form-control-range">Стажи 10 йилга тенг ёки ошиқ
                                             бўлган фельдшерлар сони </label>
-                                        <input name="stf10" id="stf10" type="number" class="form-control-sm"
+                                        <input name="stf10" id="stf10" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="stf10_pr" class="form-control-range">Стажи 10йилга тенг ёки ошиқ
                                             фелдшерлар ичида олий-тоифалилар сони </label>
-                                        <input name="stf10_pr" id="stf10_pr" type="number" class="form-control-sm"
+                                        <input name="stf10_pr" id="stf10_pr" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
@@ -170,7 +170,7 @@
                                             <i>(шошилинч чақирувлар бўйича меъёрдан четланганлар ҳисобидан) меъёр:
                                                 t1n1=3 минут</i></label>
                                         <!-- (шошилинч чақирувлар бўйича меъёрдан четланганлар ҳисобидан) меъёр: t1n1=3 минут -->
-                                        <input name="t11" id="t11" type="number" class="form-control-sm"
+                                        <input name="t11" id="t11" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
@@ -179,14 +179,14 @@
                                             <i>(Зудликни талаб этувчи ва кечиктирилмайдиган чақирувлар бўйича меъёрдан
                                                 четланганлар ҳисобидан)</i></label>
                                         <!--  (Зудликни талаб этувчи ва кечиктирилмайдиган чақирувлар бўйича меъёрдан четланганлар ҳисобидан) -->
-                                        <input name="t12" id="t12" type="number" class="form-control-sm"
+                                        <input name="t12" id="t12" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="t21" class="form-control-range"> Беморнинг олдига етиб келишга
                                             кетган ўртача вақт (t21)
                                             <i>(шошилинч чақирувлар бўйича меъёрдан четланганлар ҳисобидан)</i></label>
-                                        <input name="t21" id="t21" type="number" class="form-control-sm"
+                                        <input name="t21" id="t21" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
@@ -194,25 +194,25 @@
                                             ўртача вақт (t22)
                                             <i>(Зудликни талаб этувчи ва кечиктирилмайдиган чақирувлар бўйича меъёрдан
                                                 четланганлар ҳисобидан)</i></label>
-                                        <input name="t22" id="t22" type="number" class="form-control-sm"
+                                        <input name="t22" id="t22" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nfv" class="form-control-range">Тез тиббий ёрдам бригадасига бир
                                             суткада тушган ўртача юклама Nfv</label>
-                                        <input name="nfv" id="nfv" type="number" class="form-control-sm"
+                                        <input name="nfv" id="nfv" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nv" class="form-control-range">Баҳолаш давридаги барча чақирувлар
                                             сони</label>
-                                        <input name="nv" id="nv" type="number" class="form-control-sm"
+                                        <input name="nv" id="nv" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nfav" class="form-control-range">Асоссиз чақирувлар сони <i>(кечиккан
                                                 чақирувлар)</i></label>
-                                        <input name="nfav" id="nfav" type="number" class="form-control-sm"
+                                        <input name="nfav" id="nfav" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
@@ -220,13 +220,13 @@
                                             ўлимлар сони
                                             <i>(тез тиббий ёрдам хизмати чақирувни қабул қилгандан кейин содир
                                                 бўлганлари)</i></label>
-                                        <input name="nfl0" id="nfl0" type="number" class="form-control-sm"
+                                        <input name="nfl0" id="nfl0" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nfl1" class="form-control-range">Тез тиббий ёрдам бригадаси
                                             борлигида ўлимлар сони </label>
-                                        <input name="nfl1" id="nfl1" type="number" class="form-control-sm"
+                                        <input name="nfl1" id="nfl1" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
@@ -235,13 +235,13 @@
                                                 (госпитализация рад этилган ҳоллар ва ТТЁ стационарга томонидан қайта
                                                 олиб келинганларни ҳисобга олган ҳолда)</i>
                                         </label>
-                                        <input name="nfpv" id="nfpv" type="number" class="form-control-sm"
+                                        <input name="nfpv" id="nfpv" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
                                         <label for="nop" class="form-control-range">Чақирувлар ҳақида амбулатор
                                             поликлиника муассасаларини хабардор этишлар сони</label>
-                                        <input name="nop" id="nop" type="number" class="form-control-sm"
+                                        <input name="nop" id="nop" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
@@ -251,7 +251,7 @@
                                             <i>(Диагнозларнинг мос келмаслик ҳолатлари, йўлланмадаги диагнозлар ичида
                                                 хатолиги исботланганлари, шошилинч госпитализациянинг ўз вақтидалиги
                                                 омиллари ҳисобга олинган ҳолда)</i></label>
-                                        <input name="npr" id="npr" type="number" class="form-control-sm"
+                                        <input name="npr" id="npr" type="text" class="form-control-sm"
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
