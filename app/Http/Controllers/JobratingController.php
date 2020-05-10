@@ -48,7 +48,12 @@ class JobratingController extends Controller
         $jrat->nop = $req->input('nop');
         $jrat->npr = $req->input('npr');
 
+       /* $a = $jrat->npipl;
+        $b = $jrat->nfabc;
+        $c = $a / $b;
+        $jrat->rating = $c;*/
+
         $jrat->save();
-        return redirect()->route('{{ jobrating_page }}');
+        return redirect()->route('jobrating-page')->with('success', 'Киритилган маълумотлар муваффаққиятли сақланди!');
     }
 }

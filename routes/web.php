@@ -19,7 +19,8 @@ Route::get('/', function () {
 
 Route::get('/enter/jobrating', function () {
     return view('/enter/jobrating');
-})->name('jobrating_page');
+})->name('jobrating-page');
+
 Route::get('/enter/docrating', function () {
     return view('/enter/docrating');
 });
@@ -31,4 +32,5 @@ Route::get('/show', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
 Route::post('/enter/submit', 'JobratingController@submit')->name('jrat_post_submit');

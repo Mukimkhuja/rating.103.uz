@@ -8,7 +8,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                <!-- <div class="card-header">Ассалому алайкум, <?php echo Auth::user()->name . "! "; ?> </div> -->
+                <!-- <div class="card-header">Ассалому алайкум, <?php //echo Auth::user()->name . "! "; ?> </div> -->
 
                     <div class="card-body2">
                         @if (session('status'))
@@ -21,15 +21,7 @@
                         </div>
 
                         <div class="pre-scrollable">
-                            @if($errors->any())
-                                <div class="alert alert-danger">
-                                    <ul>
-                                        @foreach($errors->all() as $error)
-                                            <li>{{ $error }}</li>
-                                        @endforeach
-                                    </ul>
-                                </div>
-                            @endif
+                            @include('layouts.messages')
                             <div class="form-group">
                                 <form method="post" action="{{route('jrat_post_submit')}}">
                                     @csrf
@@ -224,7 +216,7 @@
                                                placeholder="Enter the number!!!">
                                     </div>
                                     <div class="form-group">
-                                        <label for=" nfl0" class="form-control-range">Тез тиббий ёрдам келгунга қадар
+                                        <label for="nfl0" class="form-control-range">Тез тиббий ёрдам келгунга қадар
                                             ўлимлар сони
                                             <i>(тез тиббий ёрдам хизмати чақирувни қабул қилгандан кейин содир
                                                 бўлганлари)</i></label>
