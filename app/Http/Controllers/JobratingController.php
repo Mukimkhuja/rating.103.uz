@@ -101,6 +101,7 @@ class JobratingController extends Controller
             $Kr7 = 5 * $Pempl / 100;
             $sum2 += $Kr7;
         }
+
         //8
         $jrat->stv5_7 = $req->input('stv5_7');
         $jrat->stv5_7_2 = $req->input('stv5_7_2');
@@ -108,15 +109,98 @@ class JobratingController extends Controller
         $jrat->stv7_10_1 = $req->input('stv7_10_1');
         $jrat->stv10 = $req->input('stv10');
         $jrat->stv10_pr = $req->input('stv10_pr');
+        $Stv5_7 = $jrat->stv5_7;
+        $Stv5_7_2 = $jrat->stv5_7_2;
+        $Stv7_10 = $jrat->stv7_10;
+        $Stv7_10_1 = $jrat->stv7_10_1;
+        $Stv10 = $jrat->stv10;
+        $Stv10_Pr = $jrat->stv10_pr;
+        $b = 0;
+        $Kv1 = 100 * $Stv7_10_1 / $Stv7_10;
+        if ($Kv1 != 0) {
+            $b++;
+        }
+        $Kv2 = 100 * $Stv5_7_2 / $Stv5_7;
+        if ($Kv2 != 0) {
+            $b++;
+        }
+        $Kvo = 100 * $Stv10_Pr / $Stv10;
+        if ($Kvo != 0) {
+            $b++;
+        }
+        $Kv = ($Kvo + $Kv1 + $Kv2) / $b;
+        if ($Kv != 0) {
+            $sum++;
+            $Kr8 = 5 * $Kv / 100;
+            $sum2 += $Kr8;
+        }
+
+        //9
         $jrat->stf5_7 = $req->input('stf5_7');
         $jrat->stf5_7_2 = $req->input('stf5_7_2');
         $jrat->stf7_10 = $req->input('stf7_10');
         $jrat->stf7_10_1 = $req->input('stf7_10_1');
         $jrat->stf10 = $req->input('stf10');
         $jrat->stf10_pr = $req->input('stf10_pr');
+        $Stf5_7 = $jrat->stf5_7;
+        $Stf5_7_2 = $jrat->stf5_7_2;
+        $Stf7_10 = $jrat->stf7_10;
+        $Stf7_10_1 = $jrat->stf7_10_1;
+        $Stf10 = $jrat->stf10;
+        $Stf10_pr = $jrat->stf10_pr;
+        $c = 0;
+        $Kf1 = 100 * $Stf7_10_1 / $Stf7_10;
+        if ($Kf1 != 0) {
+            $c++;
+        }
+        $Kf2 = 100 * $Stf5_7_2 / $Stf5_7;
+        if ($Kf2 != 0) {
+            $c++;
+        }
+        $Kfo = 100 * $Stf7_10_1 / $Stf7_10;
+        if ($Kfo != 0) {
+            $c++;
+        }
+        $Kf = ($Kf1 + $Kf2 + $Kfo) / $c;
+        if ($Kf != 0) {
+            $sum++;
+            $Kr9 = 5 * $Kf / 100;
+            $sum2 += $Kr9;
+        }
+
+        //10
         $jrat->t11 = $req->input('t11');
+        $T11 = $jrat->t11;
+        $t1n1 = 3;
+        if ($T11 != 0) {
+            $sum++;
+            $Kr10 = 5 * $t1n1 / $T11;
+            $sum2 += $Kr10;
+        }
+
+        //11
         $jrat->t12 = $req->input('t12');
+        $T12 = $jrat->t12;
+        $t1n2 = 3;
+        if ($T12 != 0) {
+            $sum++;
+            $Kr11 = 5 * $t1n2 / $T12;
+            $sum2 += $Kr11;
+        }
+        //12
         $jrat->t21 = $req->input('t21');
+        $T21 = $jrat->t21;
+        if ($T21 != 0) {
+            $sum++;
+            $t2n1 = 15;
+            if ($dis == 1) {
+                $Kr12 = 5 * $t2n1 / $T21;
+            } else {
+                $Kr12 = 5 * 1.25 * $t2n1 / $T21;
+            }
+            $sum2 += $Kr12;
+        }
+
         $jrat->t22 = $req->input('t22');
         $jrat->nfv = $req->input('nfv');
         $jrat->nv = $req->input('nv');
