@@ -201,7 +201,21 @@ class JobratingController extends Controller
             $sum2 += $Kr12;
         }
 
+        //13
         $jrat->t22 = $req->input('t22');
+        $T22=$jrat->t22;
+        if ($T22!=0){
+            $sum++;
+            $t2n2 = 15;
+            if ($dis == 1) {
+                $Kr14 = 5 * $t2n2 / $T22;
+            } else {
+                $Kr14 = 5 * 1.25 * $t2n2 / $T22;
+            }
+            $sum2 += $Kr14;
+        }
+
+
         $jrat->nfv = $req->input('nfv');
         $jrat->nv = $req->input('nv');
         $jrat->nfav = $req->input('nfav');
