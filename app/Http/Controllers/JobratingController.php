@@ -85,9 +85,12 @@ class JobratingController extends Controller
         $Nffeld = $jrat->nffeld;
         $Npfeld = $jrat->npfeld;
         $a = 0;
-        $Ppara = 100 * $Nfpara / $Nppara;
-        if ($Ppara != 0) {
-            $a++;
+        $Ppara=0;
+        if ($Nppara != 0) {
+            $Ppara = 100 * $Nfpara / $Nppara;
+            if ($Ppara != 0 || $Ppara!='null') {
+                $a++;
+            }
         }
         $Pvr = 100 * $Nfvr / $Npvr;
         if ($Pvr != 0) {

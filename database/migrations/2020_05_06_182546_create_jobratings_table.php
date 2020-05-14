@@ -17,8 +17,8 @@ class CreateJobratingsTable extends Migration
         Schema::create('jobratings', function (Blueprint $table) {
             $table->increments('id');
             $table->string('disl')->default('1');
-            $table->float('npipl')->default('0');
-            $table->float('nfabc')->default('0');
+            $table->unsignedBigInteger('npipl')->default('0');
+            $table->unsignedFloat('nfabc')->default('0');
             $table->float('nfbc')->default('0');
             $table->float('nab_c')->default('0');
             $table->float('nfgps')->default('0');
