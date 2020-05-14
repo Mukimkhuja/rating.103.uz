@@ -15,6 +15,8 @@ class JobratingController extends Controller
         $sum = 0;
         $sum2 = 0;
         $dis = 0;
+        $Kr1 = $Kr2 = $Kr3 = $Kr4 = $Kr5 = $Kr6 = $Kr7 = $Kr8 = $Kr9 = $Kr10 = $Kr11 = $Kr12 = $Kr13 = $Kr14 = $Kr15 = $Kr16 = $Kr17 = $Kr18 = $Kr19 = $Kr20 = $Kr21 = $Kr22 = 0;
+
         $jrat = new Jobrating();
         //1
         if ($req->input('user') == 'admin') {
@@ -233,20 +235,65 @@ class JobratingController extends Controller
 
         //15
         $jrat->nv = $req->input('nv');
+        $jrat->nfav = $req->input('nfav');
+        $Nfav = $jrat->nfav;
+        $Nv = $jrat->nv;
+        if ($Nfav != 0) {
+            $sum++;
+            $Kr17 = (5 * ($Nv - $Nfav) / $Nv - 5) * 10;
+            $sum2 += $Kr17;
+        }
 
         //16
-        $jrat->nfav = $req->input('nfav');
         $jrat->nfl0 = $req->input('nfl0');
+        $Nfl0 = $jrat->nfl0;
+        if ($Nfl0 != 0) {
+            $sum++;
+            $Kr18 = (5 * ($Nv - $Nfl0) / $Nv - 5);
+            $sum2 += $Kr18;
+        }
+
+        //17
         $jrat->nfl1 = $req->input('nfl1');
+        $Nfl1 = $jrat->nfl1;
+        if ($Nfl1 != 0) {
+            $sum++;
+            $Kr19 = (5 * ($Nv - $Nfl1) / $Nv - 5);
+            $sum2 += $Kr19;
+        }
+
+        //18
         $jrat->nfpv = $req->input('nfpv');
+        $Nfpv = $jrat->nfpv;
+        if ($Nfpv != 0) {
+            $sum++;
+            $Kr20 = (5 * ($Nv - $Nfpv) / $Nv - 5);
+            $sum2 += $Kr20;
+        }
+
+        //19
         $jrat->nop = $req->input('nop');
+        $Nop = $jrat->nop;
+        if ($Nop != 0) {
+            $sum++;
+            $Kr21 = 5 * $Nop / $Nv;
+            $sum2 += $Kr21;
+        }
+
+        //20
         $jrat->npr = $req->input('npr');
+        $Npr = $jrat->npr;
+        if ($Npr != 0) {
+            $sum++;
+            $Kr22 = 5 * $Npr / $Nv;
+            $sum2 += $Kr22;
+        }
+
         $jrat->user_name = $req->input('user');
 
-        $a = $jrat->npipl;
-        $b = $jrat->nfabc;
-        $c = $a * $b;
-        $jrat->rating = $c;
+        $result = $sum2 / $sum;
+
+        $jrat->rating = $result;
 
         $jrat->save();
         return redirect()->route('jobrating-page')->with('success', 'Киритилган маълумотлар муваффаққиятли сақланди!');
