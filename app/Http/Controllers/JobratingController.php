@@ -243,7 +243,7 @@ class JobratingController extends Controller
         $Nv = $jrat->nv;
         if ($Nfav != 0) {
             $sum++;
-            $Kr17 = (5 * ($Nv - $Nfav) / $Nv - 5) * 10;
+            $Kr17 = 5 * ($Nv - $Nfav) / $Nv - 5;
             $sum2 += $Kr17;
         }
 
