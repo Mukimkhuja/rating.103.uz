@@ -18,8 +18,8 @@
                     @endif
                     Тизим икки турда маълумотларни қабул қилади, уларни киритиш учун қуйидаги <u>линклардан</u> бирини танланг:
                         <ol class="nav-link">
-                            <li><a href="/enter/jobrating">Фаолият баҳоси</a></li>
-                            <li><a href="/enter/docrating">Шифокор (фелдшер)лар баҳоси</a></li>
+                            <li><a href="{{route('jobrating-page')}}">Фаолият баҳоси</a></li>
+                            <li><a href="{{route('docrating-page')}}">Шифокор (фелдшер)лар баҳоси</a></li>
                         </ol>
 
                 </div>

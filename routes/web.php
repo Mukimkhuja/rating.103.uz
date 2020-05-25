@@ -23,7 +23,7 @@ Route::get('/enter/jobrating', function () {
 
 Route::get('/enter/docrating', function () {
     return view('/enter/docrating');
-});
+})->name('docrating-page');
 
 Route::get('/show', function () {
     return view('/show');
