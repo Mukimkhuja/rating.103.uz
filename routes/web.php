@@ -34,3 +34,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::post('/enter/submit', 'JobratingController@submit')->name('jrat_post_submit');
+Route::post('/enter/submit', 'DocratingController@dsubmit')->name('drat_post_submit');

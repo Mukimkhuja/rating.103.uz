@@ -14,7 +14,18 @@ class CreateDocratingsTable extends Migration
     public function up()
     {
         Schema::create('docratings', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+            $table->string('Lst')->default('0');
+            $table->string('Qk')->default('0');
+            $table->string('Nqb')->default('0');
+            $table->string('Nob')->default('0');
+            $table->string('Ncb')->default('0');
+            $table->string('Nmsh')->default('0');
+            $table->string('Ntch')->default('0');
+            $table->string('Nnt')->default('0');
+            $table->string('Nut')->default('0');
+            $table->integer('drating')->default('0');
+            $table->string('user_name')->default('unknown');
             $table->timestamps();
         });
     }
