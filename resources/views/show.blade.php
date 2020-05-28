@@ -10,7 +10,16 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                <div class="card-header">Ассалому алайкум, <?php echo Auth::user()->name."! "; ?> </div>
+                <div class="card-header">Ассалому алайкум, <?php
+                        $uname=Auth::user()->name;
+                        if ($uname=='admin'){
+                            echo 'жаноб Администратор';
+                        }else{
+                            echo $uname;
+                        }
+
+
+                    ?> </div>
 
                     <div class="card-body2">
                         @if (session('status'))

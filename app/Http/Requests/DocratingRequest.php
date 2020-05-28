@@ -25,7 +25,7 @@ class DocratingRequest extends FormRequest
     {
         return [
             'lst' => 'required|numeric',
-            'qk' => 'required|numeric',
+            'qk' => 'numeric',
             'nqb' => 'required|numeric',
             'nob' => 'required|numeric',
             'ncb' => 'required|numeric',
@@ -40,14 +40,14 @@ class DocratingRequest extends FormRequest
     {
         return [
             'lst.required' => 'Стаж работника не введен!',
-            'qk.required' => 'Rвалификационная категория работника не введен!',
-            'nqb.required' => ' не введен!',
-            'nob.required' => ' не введен!',
-            'ncb.required' => ' не введен!',
-            'nmsh.required' => ' не введен!',
-            'ntch.required' => ' не введен!',
-            'nnt.required' => ' не введен!',
-            'nut.required' => ' не введен!'
+
+            'nqb.required' => 'Оценок граждан не введен!',
+            'nob.required' => 'Количество выполненных вызовов не введен!',
+            'ncb.required' => 'Нарушений соблюдения стандартов и порядка не введен!',
+            'nmsh.required' => 'Обращений ЛПУ или граждан не введен!',
+            'ntch.required' => 'Повторные вызова в течение 24 часов не введен!',
+            'nnt.required' => 'Количество летальных случаев не введен!',
+            'nut.required' => 'Количество случаев не введен!'
         ];
     }
 }

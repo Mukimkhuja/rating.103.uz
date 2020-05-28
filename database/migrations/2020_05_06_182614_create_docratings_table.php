@@ -16,7 +16,7 @@ class CreateDocratingsTable extends Migration
         Schema::create('docratings', function (Blueprint $table) {
             $table->increments('id');
             $table->string('Lst')->default('0');
-            $table->string('Qk')->default('0');
+            $table->string('Qk')->default('null');
             $table->string('Nqb')->default('0');
             $table->string('Nob')->default('0');
             $table->string('Ncb')->default('0');
