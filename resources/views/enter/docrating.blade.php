@@ -88,7 +88,7 @@
                                                 <label for="nut" class="form-control-range">Общее количество таких
                                                     случаев анализируемых в отношении оцениваемого сотрудника</label>
                                                 <input name="nut" id="nut" type="text" class="form-control-sm"
-                                                       placeholder="Введите стаж работника">
+                                                       placeholder="Введите количество случаев">
                                             </div>
                                         </div>
                                         <div class="form-group">

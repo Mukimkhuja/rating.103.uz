@@ -39,7 +39,15 @@ class DocratingRequest extends FormRequest
     public function messages()
     {
         return [
-            'lst.required' => 'Стаж работника не введен!'
+            'lst.required' => 'Стаж работника не введен!',
+            'qk.required' => 'Rвалификационная категория работника не введен!',
+            'nqb.required' => ' не введен!',
+            'nob.required' => ' не введен!',
+            'ncb.required' => ' не введен!',
+            'nmsh.required' => ' не введен!',
+            'ntch.required' => ' не введен!',
+            'nnt.required' => ' не введен!',
+            'nut.required' => ' не введен!'
         ];
     }
 }
