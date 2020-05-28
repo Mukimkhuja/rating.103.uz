@@ -24,14 +24,22 @@ class DocratingRequest extends FormRequest
     public function rules()
     {
         return [
-            'lst'=>'required|numeric'
+            'lst' => 'required|numeric',
+            'qk' => 'required|numeric',
+            'nqb' => 'required|numeric',
+            'nob' => 'required|numeric',
+            'ncb' => 'required|numeric',
+            'nmsh' => 'required|numeric',
+            'ntch' => 'required|numeric',
+            'nnt' => 'required|numeric',
+            'nut' => 'required|numeric'
         ];
     }
 
     public function messages()
     {
         return [
-            'lst.required'=>'Стаж работника не введен!'
+            'lst.required' => 'Стаж работника не введен!'
         ];
     }
 }
