@@ -301,4 +301,6 @@ class JobratingController extends Controller
         $jrat->save();
         return redirect()->route('jobrating-page')->with('success', 'Киритилган маълумотлар муваффаққиятли сақланди!');
     }
+
+
 }

@@ -23,7 +23,7 @@
                         <div class="pre-scrollable">
                             @include('layouts.messages')
                             <div class="form-group">
-                                <form method="post" action="{{route('jrat_post_submit')}}">
+                                <form method="post" action='/enter/submit'>
                                     @csrf
                                     <div class="form-group">
                                         <label for="npipl" class="form-control-range">Баҳоланаётган ТТЁ хизмати таркибий

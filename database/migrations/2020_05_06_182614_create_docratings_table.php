@@ -24,9 +24,15 @@ class CreateDocratingsTable extends Migration
             $table->string('Ntch')->default('0');
             $table->string('Nnt')->default('0');
             $table->string('Nut')->default('0');
-            $table->integer('drating')->default('0');
+            $table->float('drating')->default('0');
             $table->string('user_name')->default('unknown');
             $table->timestamps();
+            $table->float('Kr1');
+            $table->float('Kr2');
+            $table->float('Kr3');
+            $table->float('Kr4');
+            $table->float('Kr5');
+            $table->float('Kr6');
         });
     }
 

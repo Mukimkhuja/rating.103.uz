@@ -25,7 +25,7 @@ class DocratingRequest extends FormRequest
     {
         return [
             'lst' => 'required|numeric',
-            'qk' => 'numeric',
+
             'nqb' => 'required|numeric',
             'nob' => 'required|numeric',
             'ncb' => 'required|numeric',

@@ -91,7 +91,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{route('show_page')}}">Маълумотларни кўриш</a>
+                   <a href="{{route('show_page')}}">Маълумотларни кўриш</a>
 
                     <a href="https://kun.uz/covid19" target="_blank">Covid-19</a>
                     <a href="https://kun.uz" target="_blank">Янгиликлар</a>

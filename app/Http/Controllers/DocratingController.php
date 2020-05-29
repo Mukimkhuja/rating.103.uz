@@ -13,6 +13,7 @@ class DocratingController extends Controller
         $sq = 0;
         $s = 0;
         $summ = 0;
+        $kr1=$kr1=$kr1=$kr1=$kr1=$kr1=0;
         $drat = new Docrating();
 
         $drat->Lst = $request->input('lst');
@@ -49,6 +50,7 @@ class DocratingController extends Controller
             $summ += $kr1;
             $s++;
         }
+
         $drat->Nqb = $request->input('nqb');
         $drat->Nob = $request->input('nob');
         $nqb = $drat->Nqb;
@@ -58,6 +60,7 @@ class DocratingController extends Controller
             $summ += $kr2;
             $s++;
         }
+
         $drat->Ncb = $request->input('ncb');
         $ncb = $drat->Ncb;
         $kr3 = 5 * (1 - $ncb / $nob);
@@ -65,6 +68,7 @@ class DocratingController extends Controller
             $summ += $kr3;
             $s++;
         }
+
         $drat->Nmsh = $request->input('nmsh');
         $nmsh = $drat->Nmsh;
         $kr4 = (-100) * $nmsh / $nob;
@@ -81,17 +85,25 @@ class DocratingController extends Controller
         }
         $drat->Nnt = $request->input('nnt');
         $drat->Nut = $request->input('nut');
-        $nnt=$drat->Nnt;
-        $nut=$drat->Nut;
-        $kr6 = 5*(1-$nnt/$nut);
+        $nnt = $drat->Nnt;
+        $nut = $drat->Nut;
+        $kr6 = 5 * (1 - $nnt / $nut);
         if ($kr6 != 0) {
             $summ += $kr6;
             $s++;
         }
-        $result=$summ/$s;
-        $drat->drating=$result;
+        $result = $summ / $s;
+        $drat->drating = $result;
 
         $drat->user_name = $request->input('user');
+
+        $drat->Kr1 = $kr1;
+        $drat->Kr2 = $kr2;
+        $drat->Kr3 = $kr3;
+        $drat->Kr4 = $kr4;
+        $drat->Kr5 = $kr5;
+        $drat->Kr6 = $kr6;
+
 
         $drat->save();
 
